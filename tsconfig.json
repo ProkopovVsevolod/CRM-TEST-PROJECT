@@ -1,0 +1,22 @@
+{
+  "include": ["declarations.d.ts"],
+  "exclude": ["**/node_modules/**", "**/public/**"],
+  "compilerOptions": {
+    "types": ["react", "react-dom"],
+    "outDir": "./dist",
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "allowJs": true,
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "noImplicitThis": true,
+    "useUnknownInCatchVariables": true
+  }
+}

@@ -1,0 +1,35 @@
+.input-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.label:has(+ [required])::after {
+    content: ' *';
+    color: rgb(84, 157, 231);
+}
+
+.input {
+    padding: 5px 10px;
+    border: none;
+    margin: 0;
+    font-size: 20px;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+}
+
+.input:active, input:focus {
+    border-bottom: 2px solid rgb(84, 157, 231);
+}
+
+.error {
+    border-bottom: 2px solid red;
+}
+
+.error-message {
+    position: absolute;
+    bottom: -20px;
+    font-size: 16px;
+    color: red;
+}

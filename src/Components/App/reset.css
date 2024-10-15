@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    line-height: 1;
+  }
+  
+  ul, ol {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  input, button, select {
+    outline: none;
+    border: none;
+    background: none;
+  }
+  
+  button {
+    cursor: pointer;
+  }

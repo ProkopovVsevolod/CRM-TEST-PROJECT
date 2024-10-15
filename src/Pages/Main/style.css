@@ -1,0 +1,20 @@
+.main-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-wrapper {
+    padding: 10px 20px;
+    background-color: rgb(84, 157, 231);
+}
+
+.btn-wrapper a {
+    color: white;
+    font-size: 20px;
+}
+
+.btn-wrapper a:hover {
+    text-decoration: underline;
+} 
